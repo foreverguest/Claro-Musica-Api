@@ -2,3 +2,4 @@ fuel/app/logs/*/*/*
 fuel/app/cache/*/*
 
 /vendor/
+.idea

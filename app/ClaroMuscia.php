@@ -14,6 +14,7 @@ use App\Api\Artist;
 use App\Api\Configuration;
 use App\Api\Genre;
 use App\Api\PlayList;
+use App\Api\Search;
 use App\Api\Track;
 use App\Traits\Http;
 use Curl\Curl;
@@ -40,6 +41,7 @@ class ClaroMuscia extends Curl
     use Track;
     use Album;
     use Artist;
+    use Search;
 
     public function __construct($base_url = null)
     {

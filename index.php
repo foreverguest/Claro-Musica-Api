@@ -11,4 +11,4 @@ require_once "vendor/autoload.php";
 $cm =  new \App\ClaroMuscia();
 
 header('Content-Type: application/json');
-echo json_encode($cm->getArtistSimilar(239784));
+echo json_encode($cm->SearchTerm("J Balvin"));

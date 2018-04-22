@@ -6,7 +6,6 @@
         "php-curl-class/php-curl-class": "^8.0",
         "vlucas/phpdotenv": "^2.4"
     },
-    "license": "Free",
     "authors": [
         {
             "name": "Jose Lui Coyotzi Ipatzi",

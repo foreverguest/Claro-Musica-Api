@@ -6,9 +6,4 @@
  * Time: 12:33
  */
 
-require_once "vendor/autoload.php";
-
-$cm =  new \App\ClaroMuscia();
-
-header('Content-Type: application/json');
-echo json_encode($cm->SearchTerm("J Balvin"));
+//header('Content-Type: application/json');

@@ -1,6 +1,6 @@
 **Claro Musica Api**
 
-####Instalar:
+#Instalar:
 composer create-project xlfederalelk0lx/claro-musica-api
 
 ####Donaciones:

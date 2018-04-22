@@ -1,10 +1,11 @@
 **Claro Musica Api**
 
-#Instalar:
+**Instalar:**
+
 composer create-project xlfederalelk0lx/claro-musica-api
 
-####Donaciones:
-**Paypal:** jlci811122@gmail.com
+**Donaciones:**
 
-####Modo de Uso:
+_**Paypal:** jlci811122@gmail.com_
+
 

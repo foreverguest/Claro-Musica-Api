@@ -39,7 +39,7 @@ trait Artist
     }
 
     public function getArtistSimilar($artistId = 0, $start = 0, $end = 50){
-        $json = $this->GetPage("http://android.api.claromusica.com/api/artist/similar/artistId/11224/appId/f14eadf1e22495ac2b404ee4e256a4e2/appVersion/00022b851d34aacd2f00ea5301d26c60/ct/MX/lang/MXhttp://android.api.claromusica.com/api/artist/similar/artistId/".$artistId."/appId/".$this->appId."/appVersion/".$this->appVersion."/ct/".$this->lang."/lang/".$this->lang);
+        $json = $this->GetPage("http://android.api.claromusica.com/api/artist/similar/artistId/".$artistId."/appId/".$this->appId."/appVersion/".$this->appVersion."/ct/".$this->lang."/lang/".$this->lang);
         for ($i=0 ; $i < sizeof($json); $i++){
             @$json[$i]->picture = "http://static9.claromusica.com/fotos/".@$json[$i]->picture;
         }
